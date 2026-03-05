@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-// recursive function to calculate power
+
 int power(int x, int y)
 {
     if (y == 0)
-        return 1;        // base case
+        return 1;      
     else
-        return x * power(x, y - 1);   // recursive call
+        return x * power(x, y - 1);  
 }
 
 int main()
