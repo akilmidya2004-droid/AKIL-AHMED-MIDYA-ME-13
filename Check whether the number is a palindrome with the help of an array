@@ -11,13 +11,12 @@ int main() {
         temp = temp / 10;
         i++;
     }
-
     // Check palindrome
     for (j = 0; j < i / 2; j++) {
         if (arr[j] != arr[i - j - 1]) {
             isPalindrome = 0;
             break;
-        }
+       }
     }
 
     // Output result
