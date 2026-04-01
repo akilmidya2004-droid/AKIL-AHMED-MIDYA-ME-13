@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 int main() {
     int n, temp, digit, arr[20], i = 0, j, isPalindrome = 1;
-
     printf("Enter a number: ");
     scanf("%d", &n);
 
